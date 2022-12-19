@@ -1,14 +1,16 @@
 body{
     display: flex;
+    height: 100vh;
 }
 
 .left-sidenav{
     background-color: aquamarine;
-    flex: 0 0 100px;
+    flex: 0 0 200px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-end;
+    gap: 18px;
 }
 
 .right-column{
@@ -16,23 +18,41 @@ body{
     flex: 1;
 }
 
-.icon{
-    color: #C4C4C4;
-    height: 25px;
-}
-
 .nav-logo{
     width: 68px;
     height: 34px;
     margin-top: 50px;
     background-color: coral;
+    align-self: center;
+    margin-bottom: 14.08px;
 }
 
 
 .side-nav-line{
-    width: 62.24px;
+    width: 128.22px;
     border: 0;
     border-bottom: 2px solid #C4C4C4;
     align-self: center;
-    margin-top: 24.03px;
+    margin-bottom: 13.97px;
+}
+
+a{
+    width: 195px;
+    height: 57px;
+    background-color: wheat;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.active{
+    background: #FFFFFF;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.icon{
+    color: #C4C4C4;
+    margin-left: 32px;
+    margin-right: 19px;
 }
